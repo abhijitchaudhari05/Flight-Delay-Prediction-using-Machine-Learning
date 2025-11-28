@@ -103,11 +103,4 @@ https://www.kaggle.com/datasets/usdot/flight-delays
 This project demonstrates strong predictive performance and clear operational insights.
 The Random Forest model, supported by SHAP explanations and error analysis, provides a **reliable and interpretable system** for predicting flight delays.
 
----
 
-If you want, I can also generate:
-
-* a **super-short README**
-* a **resume bullet** for this project
-* a **LinkedIn post** to showcase it
-* a **GitHub project description** (right-side bar text)
