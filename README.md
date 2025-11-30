@@ -21,7 +21,6 @@ The project is optimized for clarity, performance, and real-world usability.
 
 ## 📂 **Dataset**
 
-## Dataset
 The dataset used in this project is available on Kaggle:
 
 **Flight Delays and Cancellations**  
@@ -121,6 +120,7 @@ Create a folder named `data/` and place the downloaded CSV inside it.
 jupyter notebook flight_delayed.ipynb
 
 5. Run all cells to reproduce the analysis and results.
+
 
 
 
