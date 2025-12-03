@@ -122,3 +122,25 @@ The Random Forest model, supported by SHAP explanations and error analysis, prov
 ```bash
 git clone https://github.com/abhijitchaudhari05/Flight-Delay-Prediction-using-Machine-Learning.git
 cd Flight-Delay-Prediction-using-Machine-Learning
+````
+
+### 2. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the dataset (not included due to size)
+
+[https://www.kaggle.com/datasets/usdot/flight-delays](https://www.kaggle.com/datasets/usdot/flight-delays)
+Create a folder named `data/` and place the downloaded CSV inside it.
+
+### 4. Open the notebook
+
+```bash
+jupyter notebook flight_delayed.ipynb
+```
+
+### 5. Run all cells to reproduce the analysis and results.
+
+
