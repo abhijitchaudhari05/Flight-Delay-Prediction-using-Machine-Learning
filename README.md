@@ -104,7 +104,7 @@ The Random Forest model, supported by SHAP explanations and error analysis, prov
 
 ---
 
-## ✅ **Key Recommendations **
+## ✅ Key Recommendations 
 
 1. Reduce **departure delays**, as they are the strongest driver of arrival delays.
 2. Improve **airport turnaround efficiency**, especially during peak hours (15:00–21:00).
@@ -143,3 +143,4 @@ jupyter notebook flight_delayed.ipynb
 ### 5. Run all cells to reproduce the analysis and results.
 
 ---
+
