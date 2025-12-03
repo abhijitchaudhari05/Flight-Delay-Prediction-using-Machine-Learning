@@ -23,8 +23,8 @@ The project is optimized for clarity, performance, and real-world usability.
 
 The dataset used in this project is available on Kaggle:
 
-**Flight Delays and Cancellations**  
-https://www.kaggle.com/datasets/usdot/flight-delays
+**Flight Delays and Cancellations**
+[https://www.kaggle.com/datasets/usdot/flight-delays](https://www.kaggle.com/datasets/usdot/flight-delays)
 
 (Note: The dataset is large, so it is not included in this repository.)
 
@@ -39,14 +39,14 @@ https://www.kaggle.com/datasets/usdot/flight-delays
 
 ## 🔧 **Project Workflow**
 
-1. **Data loading & cleaning**
-2. **EDA (Exploratory Data Analysis)**
-3. **Feature engineering**
-4. **Encoding & scaling**
-5. **Machine learning models**
-6. **Model interpretation (SHAP)**
-7. **Error analysis (Airline, Route, Hour)**
-8. **Final results & conclusions**
+1. Data loading & cleaning
+2. EDA (Exploratory Data Analysis)
+3. Feature engineering
+4. Encoding & scaling
+5. Machine learning models
+6. Model interpretation (SHAP)
+7. Error analysis (Airline, Route, Hour)
+8. Final results & conclusions
 
 ---
 
@@ -61,14 +61,14 @@ https://www.kaggle.com/datasets/usdot/flight-delays
 
 ## 🧠 **Model Performance**
 
-### **Regression**
+### Regression
 
 * **Best Model:** Random Forest Regressor
 * **MAE:** ~8.7 minutes
 * **R²:** ~0.89
 * Outperforms baseline (MAE ~19.3)
 
-### **Classification**
+### Classification
 
 * **Accuracy:** ~93%
 * **Precision:** ~90%
@@ -102,26 +102,44 @@ https://www.kaggle.com/datasets/usdot/flight-delays
 This project demonstrates strong predictive performance and clear operational insights.
 The Random Forest model, supported by SHAP explanations and error analysis, provides a **reliable and interpretable system** for predicting flight delays.
 
+---
 
-## How to Run
+## ✅ **Key Recommendations **
 
-1. Clone the repository:
+1. Reduce **departure delays**, as they are the strongest driver of arrival delays.
+2. Improve **airport turnaround efficiency**, especially during peak hours (15:00–21:00).
+3. Monitor **airline-wise performance** and set punctuality targets for high-delay carriers.
+4. Add additional features like **weather, airport traffic, and taxi times** to improve model accuracy.
+5. Use the model to build a **real-time delay prediction dashboard** for operational planning.
+
+---
+
+## 📘 **How to Run**
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/abhijitchaudhari05/Flight-Delay-Prediction-using-Machine-Learning.git
 cd Flight-Delay-Prediction-using-Machine-Learning
+```
 
-2. Install required packages:
+### 2. Install required packages
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Download the dataset (not included due to size):
-https://www.kaggle.com/datasets/usdot/flight-delays
+### 3. Download the dataset (not included due to size)
+
+[https://www.kaggle.com/datasets/usdot/flight-delays](https://www.kaggle.com/datasets/usdot/flight-delays)
 Create a folder named `data/` and place the downloaded CSV inside it.
 
-4. Open the notebook:
+### 4. Open the notebook
+
+```bash
 jupyter notebook flight_delayed.ipynb
+```
 
-5. Run all cells to reproduce the analysis and results.
+### 5. Run all cells to reproduce the analysis and results.
 
-
-
-
-
+---
